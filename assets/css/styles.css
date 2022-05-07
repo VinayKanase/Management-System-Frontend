@@ -3,3 +3,8 @@
   background: -webkit-linear-gradient(90deg, #db2020 40%, #ae0909 40%);
   background: linear-gradient(90deg, #db2020 40%, #ae0909 40%);
 }
+.redBottom {
+  background: -moz-linear-gradient(90deg, #db2020 40%, #ae0909 40%);
+  background: -webkit-linear-gradient(90deg, #db2020 40%, #ae0909 40%);
+  background: linear-gradient(90deg, #db2020 40%, #ae0909 40%);
+}

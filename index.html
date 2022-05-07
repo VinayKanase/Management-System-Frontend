@@ -1,47 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./assets/css/lightslider.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-  </head>
-  <body>
-    <nav class="flex items-center justify-between px-5 py-3">
-      <img src="./assets/images/logo.png" width="180px" alt="Somaiya" />
-      <div class="flex navLinks">
-        <button class="bg-[#B7202E] rounded-full px-5 py-2 text-[#fff]">
-          Login
-        </button>
-      </div>
-    </nav>
-    <div class="titlePage h-screen">
-      <div class="w-7/12 h-screen flex items-center p-10">
-        <ul id="lightSlider">
-          <li class="h-100">
-            <img src="./assets/images/test.png" />
-          </li>
-          <li>
-            <img src="./assets/images/test.png" />
-          </li>
-        </ul>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/css/lightslider.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <nav class="flex items-center justify-between px-5 py-3">
+    <img src="./assets/images/logo.png" width="180px" alt="Somaiya" />
+    <div class="flex navLinks">
+      <button class="bg-[#B7202E] rounded-full px-5 py-2 text-[#fff]">
+        Login
+      </button>
     </div>
-    <div class="updates h-screen p-10">
-      <h2 class="text-3xl font-bold text-[#DC0E0E] text-center">Updates</h2>
+  </nav>
+  <div class="titlePage h-screen">
+    <div class="w-7/12 h-screen flex items-center p-10 float-left">
+      <ul id="lightSlider">
+        <li class="h-100">
+          <img src="./assets/images/test.png" />
+        </li>
+        <li>
+          <img src="./assets/images/test.png" />
+        </li>
+      </ul>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="./assets/js/lightslider.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $("#lightSlider").lightSlider({
-          item: 1,
-          loop: true,
-        });
+    <div class="titleText pt-72 text-center text-7xl text-[#fff] ">Est voluptas necessit tenetur corporis nihil. Harum omnis sed assumenda qui praesentium.</div>
+  </div>
+
+  <div class="updates h-screen p-10">
+    <h2 class="my-5 text-5xl font-bold text-[#DC0E0E] text-center">Updates</h2>
+    <div class=" updateCards p-20">
+      <div class="shadow-lg rounded-2xl text-center h-40 w-full card bg-gray-100 flex">
+        <div class="cardText m-auto font-semibold text-xl">
+          Est voluptas necessitatibus tenetur corporis nihil. Harum omnis sed assumenda qui praesentium laboriosam eum porro.
+
+        </div>
+      </div>
+
+      <div class="mt-10 shadow-lg rounded-2xl text-center h-40 w-full card bg-gray-100 flex">
+        <div class="cardText m-auto font-semibold text-xl">
+          Est voluptas necessitatibus tenetur corporis nihil. Harum omnis sed assumenda qui praesentium laboriosam eum porro.
+
+        </div>
+      </div>
+
+      <div class="mt-10 shadow-lg rounded-2xl text-center h-40 w-full card bg-gray-100 flex">
+        <div class="cardText m-auto font-semibold text-xl">
+          Est voluptas necessitatibus tenetur corporis nihil. Harum omnis sed assumenda qui praesentium laboriosam eum porro.
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="footer">
+
+    <div class=" mainFooter h-40 bg-gray-100">
+<!-- footer text left -->
+    </div>
+
+    <div class="redBottom h-20"></div>
+
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="./assets/js/lightslider.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#lightSlider").lightSlider({
+        item: 1,
+        loop: true,
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
