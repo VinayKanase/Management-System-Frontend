@@ -8,35 +8,21 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
   </head>
   <body>
-    <div class="h-full bg-gradient-to-b"></div>
-
     <nav class="flex items-center justify-between px-5 py-3">
-      <img src="./assets/images/logo.png" width="180px" alt="Somaiya" />
+      <img src="../assets/images/logo.png" width="180px" alt="Somaiya" />
       <div class="flex navLinks">
         <button class="bg-[#B7202E] rounded-full px-5 py-2 text-[#fff]">
           Login
         </button>
       </div>
     </nav>
-    <div class="h-screen w-screen flex bg-[#AE0909]">
+
+    <div class="h-screen w-screen flex bg-[#AE0909] relative">
       <!-- container -->
 
       <aside
         class="flex flex-col items-center bg-white text-gray-700 shadow h-full bg-[#DB2020] text-white"
       >
-        <!-- Side Nav Bar-->
-
-        <div class="h-16 flex items-center w-full">
-          <!-- Logo Section -->
-          <a class="h-6 w-6 mx-auto" href="http://svelte.dev/">
-            <img
-              class="h-6 w-6 mx-auto"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/512px-Svelte_Logo.svg.png"
-              alt="svelte logo"
-            />
-          </a>
-        </div>
-
         <ul>
           <!-- Items Section -->
           <li class="hover:bg-gray-700">
@@ -230,6 +216,9 @@
           </button>
         </div>
       </aside>
+      <div
+        class="rounded-xl p-5 h-5/6 w-10/12 m-auto bg-[#fff] dashboard"
+      ></div>
     </div>
   </body>
 </html>
